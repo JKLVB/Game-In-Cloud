@@ -1,0 +1,107 @@
+.body{
+    background-color:#2F4F4F;
+    height: 100%;
+    margin: auto;
+}
+
+.folha{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: left;
+    background-color: white;
+    width: 60%;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 8px;
+}
+
+#titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.folha #nome{
+    width: 55%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.folha #nomeInput{
+    height: 30px;
+    width: 50%;
+    margin-top: -1%;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
+.folha #cpf{
+    width: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.folha #cpfInput{
+    height: 30px;
+    width: 50%;
+    margin-top: -1%;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
+.folha #data{
+    width: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.folha #dataInput{
+    height: 30px;
+    width: 50%;
+    margin-top: -1%;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
+.folha #senha{
+    width: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.folha #senhaInput{
+    height: 30px;
+    width: 50%;
+    margin-top: -1%;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 8px;
+}
+
+
+.folha #exibir{
+    height: 34px;
+    margin-top: -1%;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+
+.folha #enviar{
+    margin-left: 5%;
+    height: 34px;
+    margin-top: 3%;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+#tabelaDados{
+    margin-left: 5%;
+    height: 34px;
+    margin-top: 3%; 
+}
