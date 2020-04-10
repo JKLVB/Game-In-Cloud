@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html lang='pt'>
+<html lang="en">
+
 <head>
-	<header>
-	<title class="titulo-projeto"> Projeto "Game in Cloud"</title>
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="application.css">
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="formulario.css">
+
 </head>
 
-<body>
 
-	<main>
-		<div class="logo"> 
-	<img src="https://kstatic.googleusercontent.com/files/76e05f4e116181f0e5c6cd65ab59a2a1b6881de68613a31c9c2ea3fe48a2cad43d73578bd433f9c43ce20cbd705b4db8b74ce89cf6575cafa44286e6e5f3ac6e" alt="logo">
-		</div>
-		<hr>
-	<h1 class="nome-projeto"> Projeto Game in Cloud </h1>
 
-	<h2 class="subtitulo-projeto">Games com armazenamento em nuvem</h2>
-	<h3 class="descricao-projeto"> O projeto "Game in Cloud" tem o intuito de trazer uma plataforma de games com armazenamento em nuvem para um melhor desempenho de games sem a necessidade de grandes espaços de armazenamento interno do seu computador.  Nosso compromisso é trazer o melhor desempenho e fluidez para seus games.
-	</h3>
+<body class="body">
 
-	<hr>
-	<div class="creditos">
-		<h3>Créditos</h3>
 
-		<table>
-			<thead>
-				<tr>
-					<th>Criadores </th>
-					<th></th>
-					<th> Disciplina </th>
-					<th></th>
-					<th> Ferramentas </th>
-					<th></th>
-					<th> Data </th>
-					<th></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Roberto Santos e Álvaro Lima </td>
-					<td></td>
-					<td> Programação para Web </td>
-					<td></td>
-					<td> HTML & CSS </td>
-					<td></td>
-					<td> 20/03/2020 </td>
-					<td></td>
-				</tr>
-			</tbody>
+    <div class="folha">
+        <table id="tabelaDados">
 
-		</table>
+            <p id="titulo">
+                Formulário
+            </p>
 
-<p>@Todos os direitos reservados - Game in Cloud Project - 2020</p>
+            <!-- nome -->
+            <div>
+                <p id="nome">Nome:</p>
+                <input id="nomeInput" type="text" placeholder="Informe seu nome aqui">
+
+            </div>
+
+
+            <!-- cpf-->
+
+            <div>
+                <p id="cpf">CPF:</p>
+                <input id="cpfInput" type="text" placeholder="Ex.: 000.000.000-00">
+            </div>
+
+            <!-- data de nascimento-->
+            <div>
+                <p id="data">Data de Nascimento:</p>
+                <input id="dataInput" type="text" placeholder="Ex.: dd/mm/aaaa">
+            </div>
+
+            <!-- senha -->
+            <div>
+                <p id="senha">Senha:</p>
+                <input id="senhaInput" type="password" placeholder="Informe sua senha">
+
+                <!-- Botao -->
+
+                <button id="exibir" name="exibir" onclick="exibirSenha()" class="botao1">Exibir</button>
+            </div>
+
+
+            <!-- Botao -->
+            <div>
+
+                <button id="enviar" name="enviar" onclick="criarCliente()" class="botao2">Enviar</button>
+            </div>
+
+
+        </table>
+    </div>
+
+
 </body>
+
+<script src="formulario.js"></script>
 
 </html>
